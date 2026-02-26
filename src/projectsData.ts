@@ -1,4 +1,4 @@
-// src/projectsData.ts
+
 export type Project = {
   id: string;
   name: string;
@@ -9,11 +9,11 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  // 1) Najjači prvi (pošto regruter često vidi samo početak)
+  
   {
     id: "hps",
     name: "Hiring Pipeline Simulator",
-    demoUrl: "https://your-hps.vercel.app", // zameni
+    demoUrl: "https://hiring-pipeline-simulator.vercel.app/", 
     repoUrl: "https://github.com/luidji95/hiring-pipeline-simulator",
     short:
       "Enterprise-grade recruitment workflow engine with persistent state and advanced pipeline analytics.",
@@ -31,7 +31,7 @@ export const projects: Project[] = [
     ],
   },
 
-  // 2) Drugi
+
   {
     id: "jaap",
     name: "Job Application Analytics Platform",
@@ -48,7 +48,7 @@ export const projects: Project[] = [
       "Type-Safe Development: TypeScript + Zod for end-to-end type safety, schema validation, and reliable form handling.",
     ],
   },
-  // src/projectsData.ts (dodaj u projects array)
+ 
 {
   id: "fit",
   name: "Feature Impact Tracker - Product Analytics Tool",
