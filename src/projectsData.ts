@@ -52,8 +52,8 @@ export const projects: Project[] = [
 {
   id: "fit",
   name: "Feature Impact Tracker - Product Analytics Tool",
-  demoUrl: "https://your-fit.vercel.app", // zameni
-  repoUrl: "https://github.com/yourname/feature-impact-tracker", // zameni
+  demoUrl: "https://your-fit.vercel.app", 
+  repoUrl: "https://github.com/yourname/featureimpact-tracker", 
   short:
     "Product-oriented analytics app for tracking feature effectiveness from release to evaluation.",
   details: [
